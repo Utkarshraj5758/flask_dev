@@ -1,0 +1,11 @@
+modules = ["python-3.11"]
+[nix]
+channel = ""
+
+[[ports]]
+localPort = 80
+externalPort = 80
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
